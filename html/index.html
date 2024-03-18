@@ -19,15 +19,22 @@
             </nav>
         </header>
         <section id="reg"><h2>S'enregistrer</h2>
-            <p contenteditable="">I can change this block</p>
+            <p contenteditable id="contenteditable">I can change this block</p>
             <style>
-                
+                #contenteditable
+                {
+                background: red;
+                }
                 ::selection {
                 background: blue;
                 color:beige;
             }
-            summary 
-            {background-color: aqua} 
+                summary 
+            {background-color: aqua}
+            
+            #footer {
+                padding-top: 5em;
+            }
             </style></section>
             
         <section id="about"><h2>A propos</h2>
@@ -54,7 +61,7 @@
              
     
     </main>
-    <footer>L'école du code depuis 2024 &copy;</footer>
+    <footer id="footer">L'école du code depuis 2024 &copy;</footer>
 <body>
     
 </body>
