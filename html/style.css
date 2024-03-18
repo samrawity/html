@@ -11,13 +11,13 @@
 }
 
 .items > :first-child {
-    background: lightblue;
-    border: 2px solid blue;
+    background: lightcoral;
+    border: 2px solid rebeccapurple;
     z-index: 3;
 }
 
 .items > :nth-child(2) {
-    background: pink;
+    background: blue;
     border: 2px solid hotpink;
     z-index: 1;
 }
@@ -26,4 +26,22 @@
     background: yellow;
     border: 2px solid gold;
     z-index: 2;
+}
+
+.page{
+    display: flex;
+}
+
+.page > *{
+    padding: 1rem;
+    min-height: 50vh;
+}
+
+.content{
+    border: 1px solid gray;
+}
+
+.sidebar{
+    background: gray;
+    width: 15rem;
 }
