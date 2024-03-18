@@ -17,27 +17,34 @@
 }
 
 .items > :nth-child(2) {
-    background: blue;
+    background: lightblue;
     border: 2px solid hotpink;
     z-index: 1;
 }
 
 .items > :last-child {
-    background: yellow;
+    background: lightskyblue;
     border: 2px solid gold;
     z-index: 2;
 }
 
 .page{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .page > *{
     padding: 1rem;
     min-height: 50vh;
+    padding: 1rem;
+    min-height: 50vh;
 }
 
 .content{
+    border: 1px solid gray;
+    flex-basis: 0;
+    flex-grow: 2;
+    min-width: 70%;
     border: 1px solid gray;
 }
 
