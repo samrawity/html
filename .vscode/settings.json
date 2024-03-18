@@ -2,5 +2,6 @@
     "github.codespaces.defaultExtensions": [
         "GitHub.codespaces",
         "GitHub.vscode-pull-request-github"
-    ]
+    ],
+    "liveServer.settings.CustomBrowser": "chrome"
 }
