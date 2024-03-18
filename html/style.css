@@ -1,0 +1,29 @@
+.items > * {
+    width: 250px;
+    height: 200px;
+    position: relative;
+}
+
+.items > * + * {
+    margin-top: -150px;
+    opacity: .08;
+    box-shadow: 0 -1px 10px rgba(0 0 0 /60%)
+}
+
+.items > :first-child {
+    background: lightblue;
+    border: 2px solid blue;
+    z-index: 3;
+}
+
+.items > :nth-child(2) {
+    background: pink;
+    border: 2px solid hotpink;
+    z-index: 1;
+}
+
+.items > :last-child {
+    background: yellow;
+    border: 2px solid gold;
+    z-index: 2;
+}
