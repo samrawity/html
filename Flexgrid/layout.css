@@ -67,8 +67,14 @@ p:first-child {
     font-weight: bold;
 }
 
-p:last-child {
-    background-color: lightgoldenrodyellow;
+p:first-of-type {
+    text-shadow: 3px 3px 3px white ;
+color: gray;
+}
+
+p:last-of-type {
+    background-color: #fafad2;
+    background: radial-gradient(#e66465, #9198e5);
     font-weight: bold;
 }
 
@@ -97,14 +103,18 @@ li:nth-child(3n+3) {
 ul {
     border: 2px dotted;
     border-radius: 96% 4% 70% 30% / 37% 30% 70% 63% ;
-    border-inline-end: 2px solid red;
+    border-inline-end: 2px solid white;
+    box-shadow: 15px 15px 5px 5px;
 }
 
 ol {
     border-image-source: url(https://assets.codepen.io/174183/border-image-frame.jpg);
-    border-image-slice: 61 58 51 48;
+    border-image-slice: 200 180 200 180;
     border-image-width: 20px 20px 20px 20px;
     border-image-outset: 0 0 0 0;
     border-image-repeat: stretch stretch;
 }
 
+img {
+    filter: drop-shadow( 0 0 10px red);
+}
