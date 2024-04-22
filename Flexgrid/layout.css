@@ -32,3 +32,29 @@ footer {
     grid-area: footer;
     background-color: greenyellow;
 }
+
+::marker {
+    color: red;
+}
+
+ul::marker {
+    font-size: 1.5 rem;
+}
+
+ol::marker {
+    font-size: 1.1 rem;
+}
+
+summary::marker {
+    content: '\002B'' '; /* + */
+}
+
+details[open] summary::marker {
+    content: '\2212'' '; /* + */
+}
+
+li + li {
+   margin-top: .25rem; 
+}
+
+ol { padding: 0 0 0 1.1 rem;}
