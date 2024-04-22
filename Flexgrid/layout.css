@@ -33,9 +33,10 @@ footer {
     background-color: greenyellow;
 }
 
-::marker {
+/* ::marker {
     color: red;
 }
+*/
 
 ul::marker {
     font-size: 1.5 rem;
@@ -58,3 +59,37 @@ li + li {
 }
 
 ol { padding: 0 0 0 1.1 rem;}
+
+li::selection { background-color: blanchedalmond;}
+
+p:first-child {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+p:last-child {
+    background-color: lightgoldenrodyellow;
+    font-weight: bold;
+}
+
+ul li:first-child  {color: blue;}
+
+ul:first-of-type {color: red;}
+
+article { max-width: 60ch;}
+
+article > * + * {
+    margin-top: 1.2rem;
+}
+
+li:nth-child(5) {
+    background: lightcoral;
+}
+
+li:nth-child(even) {
+    background: lightcyan;
+}
+
+li:nth-child(3n+3) {
+    background: lightskyblue;
+}
