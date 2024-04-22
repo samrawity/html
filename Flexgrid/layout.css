@@ -1,10 +1,10 @@
 .container {
     display: grid;
-    grid-auto-rows: 200px;
+    grid-auto-rows: auto;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "header header header header"
                         "sidebar content content content"
-                        "sidebar footer footer footer";
+                        "footer footer footer footer";
 }
 
 .container *{
@@ -93,3 +93,18 @@ li:nth-child(even) {
 li:nth-child(3n+3) {
     background: lightskyblue;
 }
+
+ul {
+    border: 2px dotted;
+    border-radius: 96% 4% 70% 30% / 37% 30% 70% 63% ;
+    border-inline-end: 2px solid red;
+}
+
+ol {
+    border-image-source: url(https://assets.codepen.io/174183/border-image-frame.jpg);
+    border-image-slice: 61 58 51 48;
+    border-image-width: 20px 20px 20px 20px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+}
+
