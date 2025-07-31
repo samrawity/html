@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <h1 class="title">freeCodeCamp Survey Form</h1>
+</section>
+<section>
+    <p class="description">Thank you for taking the time to help us improve the platform</p>
+</section>
+<form class="survey-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="add your name">
+</br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="add your email">
+</br>
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number" min="10" max="20" placeholder="add your number">
+</br>
+    <label for="dropdown">Dropdown:</label>
+    <select name="dropdown" id="select">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+    </select>
+</br>
+    <label for="name1">Radio 1:</label>
+    <input type="radio" id="name1" name="radio">
+</br>
+
+    <label for="name2">Radio 2:</label>
+    <input type="radio" id="name2" name="radio">
+
+    <label for="checkbox1">Checkbox 1:</label>
+    <input type="checkbox" id="checkbox1" name="checkbox1" value="1">
+
+    <label for="checkbox2">Checkbox 2:</label>
+    <input type="checkbox" id="checkbox2" name="checkbox2" value="2">
+
+    <label for="checkbox3">Checkbox 3:</label>
+    <input type="checkbox" id="checkbox3" name="checkbox3" value="3">
+</br>
+
+    <label for="textarea">Comments:</label>
+    <textarea id="textarea" name="textarea" rows="5" cols="33"></textarea>
+</br>
+
+    <input type="submit" value="Submit Form">
+</form>
+</body>
+</html>

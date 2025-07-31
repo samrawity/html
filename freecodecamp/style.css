@@ -1,0 +1,74 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+/* Body styles */
+body {
+    background-color: lightblue;
+    background-image: url(https://images.unsplash.com/photo-1682686581663-179efad3cd2f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section styles */
+.section {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title styles */
+.title {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+/* Description styles */
+.description {
+    font-size: 20px;
+    color: rgba(0, 72, 255, 0.619);
+    background-color: azure;
+    padding: 10px;
+}
+
+/* Form styles */
+.survey-form {
+    background-color: blue;
+    margin: 20px auto; /* Centering the form horizontally */
+    max-width: 500px; /* Limiting form width */
+    padding: 20px;
+    opacity: 0.7; /* Setting opacity to 70% */
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%; /* Ensuring inputs take full width of their container */
+    margin-bottom: 10px; /* Adding some space between inputs */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Adjustments to labels */
+label {
+    display: block; /* Ensuring labels are displayed in block format */
+    margin-bottom: 5px; /* Adding space between labels */
+    color: aliceblue;
+}
